@@ -6,8 +6,9 @@ dependencies:
     - cat /etc/lsb-release
     - cat /proc/cpuinfo
     - cat /proc/meminfo
-    - dstat -Tclmdrn
-    - dstat -Tclm
-    - dstat -Tclr
-    - dstat -Tclnd
-    - dstat -Tcldr
+    - ifconfig
+    - dstat -Tclmdrn 2 5
+    - dstat -Tclm 2 5
+    - dstat -Tclr 2 5
+    - dstat -Tclnd 2 5
+    - dstat -Tcldr 2 5
