@@ -1,4 +1,6 @@
 dependencies:
+  pre:
+    - sudo apt-get install dstat
   override:
     - uname -a
     - cat /etc/lsb-release
