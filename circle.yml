@@ -1,0 +1,11 @@
+dependencies:
+  override:
+    - uname -a
+    - cat /etc/lsb-release
+    - cat /proc/cpuinfo
+    - cat /proc/meminfo
+    - dstat -Tclmdrn
+    - dstat -Tclm
+    - dstat -Tclr
+    - dstat -Tclnd
+    - dstat -Tcldr
