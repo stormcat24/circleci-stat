@@ -12,3 +12,4 @@ dependencies:
     - dstat -Tclr 2 5
     - dstat -Tclnd 2 5
     - dstat -Tcldr 2 5
+    - docker -v
